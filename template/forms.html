@@ -1,0 +1,33 @@
+{{define "forms"}}
+{{template "header"}}
+<div class="card text-white bg-dark">
+    <div class="card-header">
+      Comida
+    </div>
+    <div class="card-body">
+      <form method="post" action="/insertar">
+        <div class="form-group">
+          <label for="">Nombre:</label>
+          <input type="text"
+            class="form-control" name="nombre" id="nombre" aria-describedby="helpId" placeholder="">
+          <small id="helpId" class="form-text text-muted">Introduzca el nombre de un platillo EJ: Hamburguesa</small>
+        </div>
+        <div class="form-group">
+          <label for="">Descripcion:</label>
+          <input type="text"
+            class="form-control" name="descripcion" id="descripcion" aria-describedby="helpId" placeholder="">
+          <small id="helpId" class="form-text text-muted">Introduzca la descripcion de la comida EJ: Un emparedado con una carne de res entre ellas</small>
+        </div>
+        <div class="form-group">
+          <label for="">Precio $:</label>
+          <input type="text"
+            class="form-control" name="precio" id="precio" aria-describedby="helpId" placeholder="">
+          <small id="helpId" class="form-text text-muted">Introduzca el precio del platillo EJ: 90</small>
+        </div>
+        <button type="submit" class="btn btn-success">Agregar nueva comida</button>
+        <a class="btn btn-danger" href="/" role="button">Cancelar</a>
+      </form>
+    </div>
+  </div>
+{{template "footer"}}
+{{end}}

@@ -1,0 +1,30 @@
+{{ define "gorutine"}}
+{{ template "header"}}
+<a name="" id="" class="btn btn-primary" href="/agregar" role="button">Agregar nueva comida</a>
+<br/><br/>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{ range. }}
+            <tr>
+                <td>{{ .Id }}</td>
+                <td>{{ .Nombre }}</td>
+                <td>{{ .Descripcion }}</td>
+                <td>{{ .Precio }}</td>
+                <td> <a name="" id="" class="btn btn-warning" href="/editar?id={{.Id}}" role="button">Editar</a> | 
+                <a name="" id="" class="btn btn-danger" href="/borrar?id={{.Id}}" role="button">Borrar</a>
+                </td>
+            </tr>
+        {{ end }}
+        </tbody>
+    </table>
+{{template "footer"}}
+{{end}}
