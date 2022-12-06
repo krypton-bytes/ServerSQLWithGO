@@ -1,5 +1,5 @@
 # server
-Server MySQK in GO
+Server MySQL in GO
 
 # Lenguaje de programacion
 En este proyecto se ocupo el lenguaje de programacion GO
