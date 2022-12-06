@@ -11,7 +11,8 @@ Go es un lenguaje de programación concurrente y compilado con tipado estático 
 # Recursos del proyecto 
 
 <p align="left"> <a href="https://go.dev/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/golang/golang-icon.svg" alt="GO" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-official.svg" alt="GO" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg" alt="GO" width="40" height="40"/> </a></p>
-# Recursos descargables 📌
+
+# Descargables 
 Para este proyeto se ocuparon 2 repositorios como librerias en el proyecto los cuales son:
 
 MySQL para la gestion de la base de datos y las conexiones a esta, es necesario ejecutar el comando en terminal:
